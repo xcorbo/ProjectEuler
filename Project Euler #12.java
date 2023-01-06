@@ -27,7 +27,6 @@ public final class Main {
             }
             count.add(sumCount);
             int lastItem = count.size() - 1;
-            System.out.println("Counting..." + count.get(lastItem));
             if (count.get(lastItem) > 500){
                 System.out.println("This number has: " + count.get(lastItem) + " divisors");
                 System.out.println("Triangular number is:" + sumTriangular);
