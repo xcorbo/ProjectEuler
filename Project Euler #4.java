@@ -14,10 +14,8 @@ public final class Main {
         // Code
         for (int i = 0; i <= maxNum; i++){
             for (int j = 0; j <= maxNum; j++){
-                if (isPalindrome(i*j)){
-                    if (i*j > initPal){
+                if (i*j > initPal && isPalindrome(i*j)){
                         initPal = i*j;
-                    }
                 }
             }
         }
