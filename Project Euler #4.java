@@ -37,10 +37,6 @@ public final class Main {
         for (int k = strPal.length()-1; k >= 0; k--){
             strRevPal = strRevPal + strPal.charAt(k);
         }
-        if (strPal.equals(strRevPal)){
-            return true;
-        } else {
-            return false;
-        }
+        return strPal.equals(strRevPal);
     }
 }
